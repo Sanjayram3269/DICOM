@@ -1,0 +1,5 @@
+width: 1024
+height: 1024
+bit_depth: 16
+signed: false
+endian: little

@@ -1,0 +1,46 @@
+﻿# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node / frontend dependencies and builds
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Datasets, patient images, RAW files and generated medical images
+data/
+*.raw
+*.dcm
+*.dicom
+
+# Model weights and generated artifacts
+models/**/*.pt
+models/**/*.pth
+models/**/*.onnx
+models/**/*.h5
+models/**/*.keras
+artifacts/
+outputs/
+*.log
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
